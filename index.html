@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кликер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Кликер</h1>
+        
+        <div>
+            <label for="timer">Введите время (0-30 секунд):</label>
+            <input type="number" id="timer" min="0" max="30" value="10">
+            <button id="start">Начать</button>
+        </div>
+        
+        <div>
+            <button id="clicker" disabled>Кликни сюда!</button>
+        </div>
+
+        <h4 id="clickCount">Кликов: 0</h4>
+        <h3 id="result">Результат: 0 кликов в секунду</h3>
+    </div>
+
+    <script src="./script.js">
+       
+    </script>
+
+</body>
+</html>
